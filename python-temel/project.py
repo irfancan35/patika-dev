@@ -75,17 +75,18 @@ def list_reverse(arr, _=None):
 
 
 # Sample Usage Example
-inp_arr1 = [[1, 'a', ['cat'], 2], [[[3]],'dog'], 4, 5]
+inp_arr1 = [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]
 inp_arr2 = [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
 
 # Check the original array before and after list_flatten() function call
-print(inp_arr1)
+print(f"List before operation: {inp_arr1}")
 out_arr_lf = list_flatten(inp_arr1)
-print(out_arr_lf)
-print(inp_arr1)
+print(f"Flattened List       : {out_arr_lf}")
+print(f"List after opeartion : {inp_arr1}")
+print()
 
 # Check the original array before and after list_reverse() function call
-print(inp_arr2)
+print(f"List before operation: {inp_arr2}")
 out_arr_rv = list_reverse(inp_arr2)
-print(out_arr_rv)
-print(inp_arr2)
+print(f"Reversed List        : {out_arr_rv}")
+print(f"List after opeartion : {inp_arr2}")
