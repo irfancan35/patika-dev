@@ -1,0 +1,94 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: goldenrod;
+    font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h3 {
+    color: darkolivegreen;
+    font-family: 'Silkscreen', cursive;
+    font-style: oblique;
+}
+
+h4 {
+    color: darkslateblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+
+.navbar-links {
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar-links li {
+    border: 1px solid darkolivegreen;
+    margin: 0 20px;
+}
+
+.navbar-contacts {
+    font-size: 12px;
+}
+
+.main-content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.product-list {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.products {
+    font-size: 16px;
+}
+
+.image-list {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+}
+
+.image-list li {
+    border: 1px solid black;
+}
+
+.image-list span {
+    font-size: larger
+}
+
+.image-list p {
+    font-size: smaller;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin: 30px;
+    padding: 15px;
+    width: 300px;
+}
+
+.about {
+    font-family: 'Lobster', cursive;
+}

@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+}
+
+main {
+    background-color: #EEEEEE;
+    width: 90%;
+    margin: auto;
+}
+
+aside {
+    width: 90%;
+    display: flex;
+    margin: 2px auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1px;
+}
+
+.special-search {
+    background-color: #7EE5DA;
+    width: 37%;
+}
+
+.google-links {
+    background-color: #70CCC2;
+    width: 22%;
+    font-size: small;
+}
+
+.subscribe {
+    background-color: #62B3AA;
+    width: 41%;
+    font-size: small;
+    padding: 1px;
+}
+
+footer {
+    font-size: small;
+}
